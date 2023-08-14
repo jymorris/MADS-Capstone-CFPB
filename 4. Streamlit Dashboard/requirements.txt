@@ -1,7 +1,0 @@
-altair
-pandas
-requests
-streamlit
-numpy
-nltk
-psycopg2
