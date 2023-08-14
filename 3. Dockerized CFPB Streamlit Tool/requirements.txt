@@ -1,0 +1,14 @@
+altair
+pandas
+requests
+streamlit
+streamlit-nested-layout
+streamlit-option-menu
+geopandas
+seaborn
+numpy
+nltk
+plotly
+bokeh
+psycopg2-binary
+matplotlib
