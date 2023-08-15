@@ -100,12 +100,12 @@ def text_normalizer(text):
     return text
 def ping_hello():
     # Function to initialize the complaint evaluation API
-    response = requests.get('https://cfpb-eval-ltsyz5ld4a-uc.a.run.app/hello')
+    response = requests.get("api hello link")
     return response.text
 
 def get_prediction_json(text):
     # Get prediction results from the complaint evaluation API
-    response = requests.get(f'https://cfpb-eval-ltsyz5ld4a-uc.a.run.app/complaint_eval/{text}')
+    response = requests.get(f'api complaint evaluation link{text}')
     data = response.json()
     print(data)
     issue_df = pd.DataFrame.from_dict(data["Issue"], orient='index', columns=["Relevance"]).reset_index().rename(columns={"index": "Issue"})
