@@ -5,7 +5,7 @@ This repository contains code and tools for processing and analyzing the CFPB cu
 ## Directory Structure
 
 1. **Set Up and ML Development**
-    - `Processing and Storing Consumer Complaint Data in GCP PostgreSQL .ipynb`
+    - `Processing and Storing Consumer Complaint Data in GCP PostgreSQL.ipynb`
     - `Mark Duplicative Complaints For ML Model Training.ipynb`
     - `Train SVM Binary Classifiers For Customer Complaints.ipynb`
     - `CFPB_complaint_place_holder.csv`
