@@ -85,6 +85,7 @@ Ensure your database connection and API are accessible.
    - Build and run instructions are similar to the Flask API Docker steps mentioned above.
 
 **Note**: Remember to update any credentials or API links in the code files as needed.
+If you're deploying to a cloud platform (like Google Cloud Run), follow their specific deployment instructions.
 
 ### Additional Resources & Information
 
