@@ -10,15 +10,15 @@ You can try out the CFPB dashboard application hosted on Google Cloud: [here](ht
     - `Processing and Storing Consumer Complaint Data in GCP PostgreSQL.ipynb`
     - `Mark Duplicative Complaints For ML Model Training.ipynb`
     - `Train SVM Binary Classifiers For Customer Complaints.ipynb`
-    - `CFPB_complaint_place_holder.csv`
+    - `your_CFPB_complaint_place_holder.csv`
 
 2. **Dockerized Flask API**
     - `Dockerfile`
     - `requirements.txt`
     - `vec_eval_text.py`
     - `your_glove.6B.100d_place_holder.txt`
-    - `your_issue_clf_model.pkl`
-    - `your_product_clf_model.pkl`
+    - `your_issue_clf_model_place_holder.pkl`
+    - `your_product_clf_model_place_holder.pkl`
 
 3. **Dockerized CFPB Streamlit Tool**
     - `Dockerfile`
@@ -55,7 +55,7 @@ You can try out the CFPB dashboard application hosted on Google Cloud: [here](ht
 1. Move the pickled models from the first folder to this directory.
 2. Update the model filenames in `vec_eval_text.py`.
 3. Copy your choice of GloVe vector file to this directory for text vectorization.
-4. Adjust the vectorizing functions in the file if you opt for different GloVe versions. Remember to replace the placeholder files.
+4. Adjust the vectorizing functions in the file if you opt for different GloVe versions. Remember to replace the placeholder files for your classification models.
 
 **Testing**:
    - To test the API locally, run the appropriate command for your platform (given in the repository).
