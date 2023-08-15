@@ -55,6 +55,7 @@ You can try out the CFPB dashboard application hosted on Google Cloud: [here](ht
 1. Move the pickled models from the first folder to this directory.
 2. Update the model filenames in `vec_eval_text.py`.
 3. Copy your choice of GloVe vector file to this directory for text vectorization.
+4. Adjust the vectorizing functions in the file if you opt for different GloVe versions. Remember to replace the placeholder files.
 
 **Testing**:
    - To test the API locally, run the appropriate command for your platform (given in the repository).
