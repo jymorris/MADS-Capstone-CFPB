@@ -2,6 +2,8 @@
 
 This repository contains code and tools for processing and analyzing the CFPB customer complaints dataset, creating a Flask API, and deploying a Streamlit dashboard.
 
+You can try out the CFPB dashboard application hosted on Google Cloud using this link: [here](https://cfpb-dashboard-app-ltsyz5ld4a-uc.a.run.app/)
+
 ## Directory Structure
 
 1. **Set Up and ML Development**
