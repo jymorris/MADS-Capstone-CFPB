@@ -36,10 +36,10 @@ You can try out the CFPB dashboard application hosted on Google Cloud: [here](ht
 ### 0. Install Requirements
 * run `pip install -r requirements.txt` to install all needed libraries.
 
-### 1. Set Up and ML Development
-
-1. Download the CFPB customer complaint dataset from [here](https://www.consumerfinance.gov/data-research/consumer-complaints/). Navigate to the "Get the data" section for the CSV file.
-2. Download the GloVe pre-trained word vectors from [here](https://nlp.stanford.edu/projects/glove/). We used the Wikipedia versions with 50 and 100 dimensions.
+### 1. Data Access Statement, Set Up and ML Development
+1. All files and data in this section are publicly avaliable and open source. 
+2. Download the CFPB customer complaint dataset from [here](https://www.consumerfinance.gov/data-research/consumer-complaints/). Navigate to the "Get the data" section for the CSV file.
+3. Download the GloVe pre-trained word vectors from [here](https://nlp.stanford.edu/projects/glove/). We used the Wikipedia versions with 50 and 100 dimensions.
 
 **Important**: Adjust the vectorizing functions in the file if you opt for different GloVe versions.
 
