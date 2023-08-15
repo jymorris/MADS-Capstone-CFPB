@@ -31,6 +31,9 @@ This repository contains code and tools for processing and analyzing the CFPB cu
 
 ## Setup Instructions
 
+### 0. Install Requirements
+* run `pip install -r requirements.txt` to install all needed libraries.
+
 ### 1. Set Up and ML Development
 
 1. Download the CFPB customer complaint dataset from [here](https://www.consumerfinance.gov/data-research/consumer-complaints/). Navigate to the "Get the data" section for the CSV file.
