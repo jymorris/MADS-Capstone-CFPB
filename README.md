@@ -43,11 +43,11 @@ You can try out the CFPB dashboard application hosted on Google Cloud: [here](ht
 
 **Important**: Adjust the vectorizing functions in the file if you opt for different GloVe versions. Remember to replace the placeholder files.
 
-3. Execute `Processing and Storing Consumer Complaint Data in GCP PostgreSQL .ipynb`:
+4. Execute `Processing and Storing Consumer Complaint Data in GCP PostgreSQL .ipynb`:
    - Make sure you update your PostgreSQL credentials within the notebook.
    - This notebook guides you through storing the CFPB data into a PostgreSQL service.
 
-4. Run `Mark Duplicative Complaints For ML Model Training.ipynb` followed by `Train SVM Binary Classifiers For Customer Complaints.ipynb`. 
+5. Run `Mark Duplicative Complaints For ML Model Training.ipynb` followed by `Train SVM Binary Classifiers For Customer Complaints.ipynb`. 
    - The first script marks records with shared IDs, and the second one uses these IDs to filter duplicative complaints and generate pickled classification models.
 
 ### 2. Dockerized Flask API
